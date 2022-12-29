@@ -699,11 +699,6 @@ video {
   margin-right: auto;
 }
 
-.-mx-8{
-  margin-left: -2rem;
-  margin-right: -2rem;
-}
-
 .-ml-8{
   margin-left: -2rem;
 }
@@ -824,10 +819,6 @@ video {
   display: none;
 }
 
-.aspect-square{
-  aspect-ratio: 1 / 1;
-}
-
 .h-9{
   height: 2.25rem;
 }
@@ -850,6 +841,12 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-40{
@@ -892,6 +889,10 @@ video {
 
 .max-w-md{
   max-width: 28rem;
+}
+
+.max-w-sm{
+  max-width: 24rem;
 }
 
 .-translate-x-2{
@@ -1004,6 +1005,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -1039,11 +1044,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#fc5b37\]{
@@ -1509,10 +1509,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:col-span-1{
-    grid-column: span 1 / span 1;
-  }
-
   .sm\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
@@ -1537,6 +1533,10 @@ video {
 
   .sm\:flex{
     display: flex;
+  }
+
+  .sm\:inline-flex{
+    display: inline-flex;
   }
 
   .sm\:hidden{
@@ -1577,8 +1577,28 @@ video {
     max-width: 32rem;
   }
 
+  .sm\:max-w-sm{
+    max-width: 24rem;
+  }
+
   .sm\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
@@ -1603,6 +1623,10 @@ video {
 
   .sm\:justify-between{
     justify-content: space-between;
+  }
+
+  .sm\:gap-8{
+    gap: 2rem;
   }
 
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -1677,11 +1701,6 @@ video {
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .sm\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .sm\:text-base{
