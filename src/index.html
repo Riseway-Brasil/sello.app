@@ -160,7 +160,10 @@
         </div>
       </main>
     </div>
-
+   
+    <!-- <section class="flex justify-center mt-10  mb-10 reveal_bottom_slow items-center">
+      <img class="sm:w-[35rem] w-[76vw] h-full object-cover floating" src="./imgs/smartmockup1.png">
+    </section> -->
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl  md:px-24 lg:px-8 lg:py-20">
 
       <div class="grid gap-8  row-gap-0 lg:grid-cols-3">
@@ -220,7 +223,21 @@
       </div>
     </div>
 
-
+    <section>
+      <div class="bg-[#fc5b37] scale_up">
+        <div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-white">
+          <h1 class="text-4xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-white">Primeiro mês <br> com 0% de taxa</h1>
+          <p class="mt-6 mb-8 text-base  max-w-xs sm:mb-12 xl:max-w-3xl text-white">Experimente o seu primeiro mês na nossa plataforma aumentando sua quantidade de venas sem gastar nada a mais por isso.</p>
+          <div class="flex flex-wrap justify-center">
+            <button type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded bg-white text-[#fc5b37]">Eu Quero!</button>
+            <button type="button" class="px-8 py-3 m-2 text-lg border rounded border-white text-white">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+      <div class="reveal_bottom_slow">
+      <img src="./imgs/smartmockup1.png" alt="" class="sm:w-[35rem] w-[20rem] mx-auto mb-12 -mt-28 rounded-lg  lg:-mt-52 floating">
+    </div>
+    </section>
 
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-col">
@@ -247,9 +264,7 @@
         </div>
       </div>
     </section>
-    <section class="flex justify-center  reveal_bottom items-center">
-      <img class="sm:w-[40rem] w-[76vw] h-full object-cover floating" src="./imgs/smartmockup1.png">
-    </section>
+
 
     <footer aria-label="Site Footer" class="bg-white  reveal_bottom">
       <div class="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
@@ -396,6 +411,7 @@
 <script>
   ScrollReveal().reveal('.flip', { rotate: { x: 20, z: 180 }, duration: 1000, delay: 300 });
   ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+  ScrollReveal().reveal('.reveal_bottom_slow', { origin: 'bottom', distance: '400px', delay: 700 });
   ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
   ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
   ScrollReveal().reveal('.reveal_right_delay', { origin: 'left', distance: '100px', delay: 700 });
