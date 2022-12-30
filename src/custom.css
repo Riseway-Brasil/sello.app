@@ -1,35 +1,54 @@
 html {
-    scroll-behavior: smooth;
-  }
-
-  ::-webkit-scrollbar {
-    width: 4px;
-
-    background-color: transparent;
-  }
-
-
-  /* Track */
-
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #fc5b37;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:#fc5b37;
-  }
-.floating { 
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
+  scroll-behavior: smooth;
  
+}
+.appmain{
+
+ 
+}
+::-webkit-scrollbar {
+  width: 4px;
+
+  background-color: transparent;
+}
+
+.loader-section {
+
+
+  position: absolute;
+  z-index: 2;
+}
+
+/* Track */
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fc5b37;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fc5b37;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
 }
