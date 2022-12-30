@@ -227,15 +227,15 @@
       <div class="bg-[#fc5b37] scale_up">
         <div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-white">
           <h1 class="text-4xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-white">Primeiro mês <br> com 0% de taxa</h1>
-          <p class="mt-6 mb-8 text-base  max-w-xs sm:mb-12 xl:max-w-3xl text-white">Experimente o seu primeiro mês na nossa plataforma aumentando sua quantidade de venas sem gastar nada a mais por isso.</p>
-          <div class="flex flex-wrap justify-center">
-            <button type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded bg-white text-[#fc5b37]">Eu Quero!</button>
-            <button type="button" class="px-8 py-3 m-2 text-lg border rounded border-white text-white">Saiba Mais</button>
+          <p class="mt-6 mb-8 text-base sm:text-lg max-w-xs sm:mb-12 sm:hidden text-white">Experimente o seu primeiro mês na nossa plataforma aumentando sua quantidade de venas sem gastar nada a mais por isso.</p>
+          <div class="flex flex-wrap justify-center sm:hidden">
+            <button type="button" class="px-8 py-3 m-2 sm:hidden text-lg font-semibold rounded bg-white text-[#fc5b37]">Eu Quero!</button>
+            <button type="button" class="px-8 py-3 m-2 sm:hidden text-lg border rounded border-white text-white">Saiba Mais</button>
           </div>
         </div>
       </div>
       <div class="reveal_bottom_slow">
-      <img src="./imgs/smartmockup1.png" alt="" class="sm:w-[35rem] w-[20rem] mx-auto mb-12 -mt-28 rounded-lg  lg:-mt-52 floating">
+      <img src="./imgs/smartmockup1.png" alt="" class="sm:w-[35rem] w-[25rem] mx-auto mb-12 -mt-28 rounded-lg  lg:-mt-64 floating">
     </div>
     </section>
 
@@ -394,7 +394,7 @@
     loader.style.display = "none"
     appmain.style.overflow = "visible"
     MyFadeFunction()
-  }, 2000);
+  }, 200);
 
   function openMenu() {
     const menuDiv = document.getElementById("mobilemenu")
