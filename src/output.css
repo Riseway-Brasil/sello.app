@@ -723,10 +723,6 @@ video {
   margin-top: -7rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
-}
-
 .mt-8{
   margin-top: 2rem;
 }
@@ -753,6 +749,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mb-48{
+  margin-bottom: 12rem;
 }
 
 .mb-4{
@@ -801,18 +801,6 @@ video {
 
 .-ml-6{
   margin-left: -1.5rem;
-}
-
-.mb-24{
-  margin-bottom: 6rem;
-}
-
-.mb-32{
-  margin-bottom: 8rem;
-}
-
-.mb-48{
-  margin-bottom: 12rem;
 }
 
 .block{
@@ -905,12 +893,28 @@ video {
   width: 2rem;
 }
 
-.w-\[25rem\]{
-  width: 25rem;
+.w-\[20rem\]{
+  width: 20rem;
 }
 
 .w-full{
   width: 100%;
+}
+
+.w-\[23rem\]{
+  width: 23rem;
+}
+
+.w-\[21rem\]{
+  width: 21rem;
+}
+
+.w-\[22rem\]{
+  width: 22rem;
+}
+
+.w-\[22\.7rem\]{
+  width: 22.7rem;
 }
 
 .max-w-max{
@@ -1199,6 +1203,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1207,11 +1216,6 @@ video {
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .px-5{
@@ -1573,6 +1577,10 @@ video {
     margin-right: auto;
   }
 
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
   .sm\:mt-0{
     margin-top: 0px;
   }
@@ -1583,10 +1591,6 @@ video {
 
   .sm\:mb-12{
     margin-bottom: 3rem;
-  }
-
-  .sm\:mb-10{
-    margin-bottom: 2.5rem;
   }
 
   .sm\:flex{
@@ -1635,12 +1639,12 @@ video {
     max-width: 28rem;
   }
 
-  .sm\:max-w-lg{
-    max-width: 32rem;
-  }
-
   .sm\:max-w-2xl{
     max-width: 42rem;
+  }
+
+  .sm\:max-w-lg{
+    max-width: 32rem;
   }
 
   .sm\:grid-cols-3{
@@ -1747,11 +1751,6 @@ video {
   .sm\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
   }
 }
 
@@ -1880,11 +1879,6 @@ video {
     padding-right: 2rem;
   }
 
-  .lg\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .lg\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1906,10 +1900,6 @@ video {
 @media (min-width: 1280px){
   .xl\:max-w-2xl{
     max-width: 42rem;
-  }
-
-  .xl\:max-w-3xl{
-    max-width: 48rem;
   }
 
   .xl\:max-w-5xl{
