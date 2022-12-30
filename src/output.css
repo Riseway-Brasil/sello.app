@@ -857,8 +857,8 @@ video {
   width: 1.5rem;
 }
 
-.w-\[50vw\]{
-  width: 50vw;
+.w-\[76vw\]{
+  width: 76vw;
 }
 
 .w-16{
@@ -871,18 +871,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[70vw\]{
-  width: 70vw;
-}
-
-.w-\[80vw\]{
-  width: 80vw;
-}
-
-.w-\[75vw\]{
-  width: 75vw;
 }
 
 .max-w-max{
