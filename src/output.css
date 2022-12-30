@@ -1237,6 +1237,10 @@ video {
   padding-top: 2rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1439,13 +1443,13 @@ video {
   border-bottom-width: 2px;
 }
 
-.hover\:bg-gray-400\/10:hover{
-  background-color: rgb(156 163 175 / 0.1);
-}
-
 .hover\:bg-\[\#fc5b37\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(252 91 55 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-400\/10:hover{
+  background-color: rgb(156 163 175 / 0.1);
 }
 
 .hover\:bg-gray-50:hover{
@@ -1458,18 +1462,24 @@ video {
   background-color: rgb(179 58 31 / var(--tw-bg-opacity));
 }
 
+.hover\:text-xl:hover{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .hover\:text-lg:hover{
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
+.hover\:text-base:hover{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .hover\:text-\[\#fc5b37\]:hover{
   --tw-text-opacity: 1;
   color: rgb(252 91 55 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#fc5b37\]\/40:hover{
-  color: rgb(252 91 55 / 0.4);
 }
 
 .hover\:text-white:hover{
@@ -1575,6 +1585,10 @@ video {
 
   .sm\:mb-12{
     margin-bottom: 3rem;
+  }
+
+  .sm\:block{
+    display: block;
   }
 
   .sm\:flex{

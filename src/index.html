@@ -76,50 +76,33 @@
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
               <a href="#"
-                class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-[#fc5b37] hover:text-[#fc5b37]/40 duration-500 shadow-sm ring-1 ring-[#fc5b37] hover:ring-[#fc5b37]/40"><i
+                class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold hover:text-base leading-6 text-[#fc5b37] hover:text-white hover:bg-[#fc5b37] duration-500 shadow-sm ring-1 ring-[#fc5b37] hover:ring-[#fc5b37]/40"><i
                   class="fa-solid fa-store mr-1"></i> Criar catálogo</a>
             </div>
           </nav>
           <!-- Mobile menu, show/hide based on menu open state. -->
           <div role="dialog" aria-modal="true">
-            <div focus="true" id="mobilemenu" style="display:none; " class=" inset-0 z-10 overflow-y-auto  px-6 py-6 ">
-              <div class="flex h-9 items-center justify-between">
-                <div class="flex">
-                  <a href="#" class="-m-1.5 p-1.5">
-                    <img class="w-40 -ml-7" src="./imgs/icon.png">
-                  </a>
-                </div>
-                <div onclick="openMenu()" class="flex">
-                  <button type="button"
-                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-900">
-                    <span class="sr-only">Close menu</span>
-                    <!-- Heroicon name: outline/x-mark -->
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                      stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              <div class="mt-6 flow-root">
+            <div  id="mobilemenu" style="display:none; " class="hidden py-6 ">
+
+              <div class="mt-6 ">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
                     <a href="#"
-                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Product</a>
+                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:text-[#fc5b37] hover:border-b-2 border-[#fc5b37] duration-100">Sobre Nós</a>
 
                     <a href="#"
-                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Features</a>
+                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:text-[#fc5b37] hover:border-b-2 border-[#fc5b37] duration-100">Beneficios</a>
 
                     <a href="#"
-                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Marketplace</a>
+                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:text-[#fc5b37] hover:border-b-2 border-[#fc5b37] duration-100">Taxas</a>
 
                     <a href="#"
-                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
+                      class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:text-[#fc5b37] hover:border-b-2 border-[#fc5b37] duration-100">Parcerias</a>
                   </div>
                   <div class="py-6">
                     <a href="#"
-                      class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log
-                      in</a>
+                    class="inline-block rounded-lg w-full text-center px-3 py-1.5 text-sm font-semibold hover:text-base leading-6 text-[#fc5b37] hover:text-white hover:bg-[#fc5b37] duration-500 shadow-sm ring-1 ring-[#fc5b37] hover:ring-[#fc5b37]/40"><i
+                      class="fa-solid fa-store mr-1 text-left"></i> Criar catálogo</a>
                   </div>
                 </div>
               </div>
@@ -401,7 +384,7 @@
     const menuDiv = document.getElementById("mobilemenu")
     if (menuDiv.style.display == "none") {
 
-      menuDiv.style.position = "absolute"
+   
       menuDiv.style.display = "block"
     } else {
       menuDiv.style.display = "none"
